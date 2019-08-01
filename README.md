@@ -1,12 +1,10 @@
 # OpenGlWindmill
  
+Windmill animation 
 
-Java Swing implementation of board game Zombie Terror.
-Turn-based game for two players.
+![](screenshot1.png)
 
-![(screenshot windmill1.png)]
-
-![(screenshot windmill2.png)]
+![](screenshot2.png)
 
 ## Interaction
 

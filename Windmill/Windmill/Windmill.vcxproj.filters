@@ -18,5 +18,30 @@
     <ClCompile Include="main.cpp">
       <Filter>Pliki źródłowe</Filter>
     </ClCompile>
+    <ClCompile Include="shprogram.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cylinder.h">
+      <Filter>Pliki źródłowe</Filter>
+    </ClInclude>
+    <ClInclude Include="house.h">
+      <Filter>Pliki źródłowe</Filter>
+    </ClInclude>
+    <ClInclude Include="shprogram.h">
+      <Filter>Pliki źródłowe</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Windmill.aps">
+      <Filter>Pliki źródłowe</Filter>
+    </None>
+    <None Include="Windmill.frag">
+      <Filter>Pliki źródłowe</Filter>
+    </None>
+    <None Include="Windmill.vert">
+      <Filter>Pliki źródłowe</Filter>
+    </None>
   </ItemGroup>
 </Project>

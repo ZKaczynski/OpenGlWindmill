@@ -76,10 +76,10 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>$(SolutionDir)\..\External Resources\GLFW\Include;$(SolutionDir)\..\External Resources;$(SolutionDir)\..\External Resources\glm;$(SolutionDir)\..\External Resources\GLEW\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)\..\..\External Resources\GLFW\Include;$(SolutionDir)\..\..\External Resources;$(SolutionDir)\..\..\External Resources\glm;$(SolutionDir)\..\..\External Resources\GLEW\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
-      <AdditionalLibraryDirectories>$(SolutionDir)\..\External Resources\GLFW\lib-vc2017;$(SolutionDir)\..\External Resources\GLEW\lib\Release\Win32;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(SolutionDir)\..\..\External Resources\GLFW\lib-vc2017;$(SolutionDir)\..\..\External Resources\GLEW\lib\Release\Win32;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>opengl32.lib;glfw3.lib;glew32s.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
@@ -99,12 +99,12 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>$(SolutionDir)\..\External Resources\GLFW\Include;$(SolutionDir)\..\External Resources;$(SolutionDir)\..\External Resources\glm;$(SolutionDir)\..\External Resources\GLEW\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)\..\..\External Resources\GLFW\Include;$(SolutionDir)\..\..\External Resources;$(SolutionDir)\..\..\External Resources\glm;$(SolutionDir)\..\..\External Resources\GLEW\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
-      <AdditionalLibraryDirectories>$(SolutionDir)\..\External Resources\GLFW\lib-vc2017;$(SolutionDir)\..\External Resources\GLEW\lib\Release\Win32;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(SolutionDir)\..\..\External Resources\GLFW\lib-vc2017;$(SolutionDir)\..\..\External Resources\GLEW\lib\Release\Win32;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>opengl32.lib;glfw3.lib;glew32s.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
@@ -124,6 +124,17 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="shprogram.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cylinder.h" />
+    <ClInclude Include="house.h" />
+    <ClInclude Include="shprogram.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Windmill.aps" />
+    <None Include="Windmill.frag" />
+    <None Include="Windmill.vert" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
